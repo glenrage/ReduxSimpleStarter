@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Header from './header';
 import CommentBox from './comment_box';
+import CommentList from './comment_list';
 
 export default class App extends Component {
   render() {
@@ -9,6 +10,7 @@ export default class App extends Component {
       <div>
         <Header />
         <CommentBox />
+        <CommentList />
       </div>
     );
   }
